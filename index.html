@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jennifer Addo — cybersecurity and digital forensics project portfolio focused on incident response, phishing analysis, network analysis and digital forensics.">
+  <meta name="theme-color" content="#071017">
+  <title>Jennifer Addo | Cybersecurity Project Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Jennifer Addo home">
+      <span class="brand-mark">&gt;_</span>
+      <span>Jennifer Addo</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#projects">Projects</a>
+      <a href="#lab">Lab notes</a>
+      <a href="#approach">Approach</a>
+      <a href="#toolkit">Toolkit</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Cybersecurity project portfolio</div>
+        <h1>
+          Jennifer
+          <span class="outline">Addo</span>
+        </h1>
+        <p class="hero-copy">
+          I’m a <strong>Cybersecurity &amp; Digital Forensics undergraduate</strong> building practical experience through security investigations, isolated lab environments and evidence-led technical projects. This site is where I document the work behind the bullet points.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">
+            Explore projects
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a class="button secondary" href="mailto:jennifer_adwoa@icloud.com">Email me</a>
+        </div>
+        <div class="hero-meta">
+          <span class="meta-item"><span class="status-dot"></span> Building practical security experience</span>
+          <span class="meta-item">Kingston University</span>
+        </div>
+      </div>
+
+      <div class="terminal" aria-label="Terminal style introduction">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-title">portfolio.sh</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line"><span class="prompt">$</span> <span class="command">whoami</span></div>
+          <div class="terminal-line output">Jennifer Addo — cyber &amp; digital forensics student</div>
+          <div class="terminal-line"><span class="prompt">$</span> <span class="command">cat focus.txt</span></div>
+          <div class="terminal-line output"><strong>incident-response</strong> / phishing-analysis / digital-forensics / network-analysis</div>
+          <div class="terminal-line"><span class="prompt">$</span> <span class="command">cat approach.txt</span></div>
+          <div class="terminal-line output">evidence first • assumptions last • document the reasoning</div>
+          <div class="terminal-line"><span class="prompt">$</span> <span class="command">explore --projects</span><span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Selected work</p>
+          <h2>Projects, not buzzwords.</h2>
+        </div>
+        <p class="section-intro">
+          Each case study explains the environment, the investigation process, the evidence I worked with, what I concluded and where I deliberately avoided making claims the evidence could not support.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <span class="project-number">01</span>
+          <div class="project-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3 4.5 6v5.2c0 4.6 3.2 8.4 7.5 9.8 4.3-1.4 7.5-5.2 7.5-9.8V6L12 3Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M9 12h6M12 9v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Independent Incident Response Lab</h3>
+          <p>Built an isolated multi-VM environment with attacker and victim machines, then worked through a structured SOC-style incident-response exercise from identification through remediation recommendations.</p>
+          <div class="tags">
+            <span class="tag">Kali Linux</span>
+            <span class="tag">VirtualBox / VMware</span>
+            <span class="tag">Incident Response</span>
+            <span class="tag">Reporting</span>
+          </div>
+          <div class="proof-strip"><span>Evidence:</span> isolated lab • investigation workflow • complete incident report</div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+          <a class="card-link" href="projects/incident-response.html" aria-label="Read the Independent Incident Response Lab case study"></a>
+        </article>
+
+        <article class="project-card narrow reveal">
+          <span class="project-number">02</span>
+          <div class="project-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="m5 8 7 5 7-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 4.5 20 2.5M20 4.5l-2-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Phishing Email Investigation</h3>
+          <p>Created a safe simulated phishing message and documented the indicators that supported the conclusion, with a separate evidence section for auditability.</p>
+          <div class="tags">
+            <span class="tag">Phishing</span>
+            <span class="tag">Social Engineering</span>
+            <span class="tag">Evidence</span>
+          </div>
+          <div class="proof-strip"><span>Evidence:</span> indicator analysis • screenshots/material • documented reasoning</div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+          <a class="card-link" href="projects/phishing-investigation.html" aria-label="Read the Phishing Email Investigation case study"></a>
+        </article>
+
+        <article class="project-card narrow reveal">
+          <span class="project-number">03</span>
+          <div class="project-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <circle cx="10" cy="10" r="5.5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="m14 14 5 5M10 7v6M7 10h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Digital Forensics Investigation</h3>
+          <p>Processed an E01 forensic image in Autopsy, reviewed more than 1,000 deleted-file entries and documented Office artefacts without overstating what the evidence proved.</p>
+          <div class="tags">
+            <span class="tag">Autopsy</span>
+            <span class="tag">E01</span>
+            <span class="tag">Metadata</span>
+            <span class="tag">Forensics</span>
+          </div>
+          <div class="proof-strip"><span>Evidence:</span> file artefacts • metadata • screenshots • evidence-led conclusion</div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+          <a class="card-link" href="projects/digital-forensics.html" aria-label="Read the Digital Forensics Investigation case study"></a>
+        </article>
+
+        <article class="project-card featured reveal">
+          <span class="project-number">04</span>
+          <div class="project-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M4 17h3l2.2-7 3.1 10 2.2-8 1.5 5H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 5h16v14H4V5Z" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <h3>Network Traffic Analysis</h3>
+          <p>Captured and examined live network traffic in a controlled environment, building confidence reading packet-level information and connecting individual packets to wider device communication.</p>
+          <div class="tags">
+            <span class="tag">Wireshark</span>
+            <span class="tag">Packet Analysis</span>
+            <span class="tag">Networking</span>
+          </div>
+          <div class="proof-strip"><span>Evidence:</span> controlled capture • packet review • networking observations</div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+          <a class="card-link" href="projects/network-traffic-analysis.html" aria-label="Read the Network Traffic Analysis case study"></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact" id="lab">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Supporting work</p>
+          <h2>Engineering foundations.</h2>
+        </div>
+        <p class="section-intro">Not every useful project is a security investigation. These smaller builds developed the programming, testing and web skills that support my wider technical work.</p>
+      </div>
+
+      <div class="lab-grid">
+        <article class="lab-card reveal">
+          <span class="mini-label">Programming</span>
+          <h3>C# Computer Mathematics Application</h3>
+          <p>Translated a mathematical problem into a specification, decomposed it into smaller programming tasks and validated behaviour through multiple test cases.</p>
+        </article>
+
+        <article class="lab-card reveal">
+          <span class="mini-label">Web</span>
+          <h3>Portfolio Website Development</h3>
+          <p>Planned and built a responsive site manually in HTML and CSS, iterating on navigation, layout and content structure rather than relying on a site builder.</p>
+        </article>
+
+        <article class="lab-card reveal">
+          <span class="mini-label">Ongoing</span>
+          <h3>Security Lab Notes</h3>
+          <p>I use projects to connect degree concepts with hands-on practice: test safely, observe carefully, document what happened and record what I would improve next.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="approach">
+    <div class="container approach">
+      <div class="approach-copy reveal">
+        <p class="kicker">How I work</p>
+        <h2>Evidence over assumptions.</h2>
+        <p>
+          The part of cybersecurity I enjoy most is turning an unclear situation into a structured investigation. My projects are deliberately documented so another person can follow the reasoning—not just see the final answer.
+        </p>
+        <p>
+          In my digital-forensics work, that also meant being comfortable with an inconclusive result. The artefacts I examined did not, by themselves, prove data theft, so I documented that limitation instead of forcing a stronger conclusion.
+        </p>
+      </div>
+
+      <div class="principles reveal">
+        <div class="principle">
+          <strong>01 — Build a safe environment</strong>
+          <span>Use isolated or simulated scenarios where appropriate so investigations can be performed without touching real malicious content.</span>
+        </div>
+        <div class="principle">
+          <strong>02 — Preserve the evidence trail</strong>
+          <span>Record indicators, artefacts, screenshots and reasoning so findings remain understandable and auditable.</span>
+        </div>
+        <div class="principle">
+          <strong>03 — Separate observation from conclusion</strong>
+          <span>Describe what the evidence shows, then state what can—and cannot—reasonably be concluded from it.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact" id="toolkit">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Current toolkit</p>
+          <h2>Tools I’m building with.</h2>
+        </div>
+      </div>
+      <div class="toolbelt reveal" aria-label="Technical tools and skills">
+        <span class="tool">Autopsy</span>
+        <span class="tool">Wireshark</span>
+        <span class="tool">Kali Linux</span>
+        <span class="tool">VirtualBox</span>
+        <span class="tool">Cisco Packet Tracer</span>
+        <span class="tool">Python</span>
+        <span class="tool">C#</span>
+        <span class="tool">Java</span>
+        <span class="tool">SQL</span>
+        <span class="tool">HTML / CSS</span>
+        <span class="tool">Windows administration</span>
+        <span class="tool">Hex editors</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-panel reveal">
+        <p class="kicker">Contact</p>
+        <h2>Interested in the work behind the projects?</h2>
+        <p>I’m happy to discuss my investigation process, the reasoning behind a finding, or what I learned while building these projects.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:jennifer_adwoa@icloud.com">jennifer_adwoa@icloud.com</a>
+          <a class="button secondary" href="#projects">Review case studies</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-row">
+    <span>Jennifer Addo — Cybersecurity Project Portfolio</span>
+    <span>Built for GitHub Pages • <span data-year></span></span>
+  </div>
+</footer>
+</body>
+</html>
